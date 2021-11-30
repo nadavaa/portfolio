@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/swimming_icon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <dic class="skip">
+            <a href="#home">Skip To Main Content</a>
+        </dic>
+        <div id="logo_head">
+        <img src="images/swimming_background.jpeg" alt="logo" id="logo">
+        <h1 id="learn">Learn How To Swim</h1>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li class="nav_item"><a href='index.html' id="current_link">Home</a></li>
+                <li class="nav_item"><a href='fly.html'>Fly</a></li>
+                <li class="nav_item"><a href='back.html'>Back</a></li>
+                <li class="nav_item"><a href='breast.html'>Breast</a></li>
+                <li class="nav_item"><a href='free.html'>Free</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container" id ="home">   
+
+        <div class="about1">
+            <h2>About</h2>
+            <p>Swimming is a fun and great activity to stay fit. It offers tremendous health benefits, improves mood, decreases anxiety and helps to burn lots of calories. Apart from this, it is also good for those suffering from arthritis and other pain conditions. As per the Centers for Disease Control and Prevention, swimming for just 2.5 hours per week decreases the risk of chronic illnesses.
+                To swim smoothly, co-ordination of the entire body is a must. One needs to focus on the movement of the legs and arms, as well as breathing control and swimming strokes. So, to expertise the skill of swimming you must start with the basics.
+            </p>   
+        </div>
+        <h2>Gallery</h2>
+        <div class="image">
+            <img src="images/image1.jpeg" alt>
+            <img src="images/image2.jpeg" alt>
+            <img src="images/image3.jpeg" alt>
+            <img src="images/image4.jpeg" alt>
+            <img src="images/image5.jpeg" alt>
+            <img src="images/image6.jpeg" alt>
+            <img src="images/image7.jpeg" alt>
+            <img src="images/image8.jpeg" alt>
+        </div>
+            <section class="flip-card">
+                <section class="flip-card-inner">
+                  <section class="flip-card-front">
+                    <img src="images/image9.jpeg" id="olympic" alt>
+                  </section>
+                  <section class="flip-card-back">
+                    <a id="olympic_link" href="https://en.wikipedia.org/wiki/Olympic_Games">Click Me to Learn More About the Olympics</a>
+                  </section>
+                </section>
+            </section>
+            <!-- <img src="images/image9.jpeg" alt> -->
+        <!-- </div> -->
+        <div id = "form">
+            <h2 id = "contact">Contact Us</h2>
+            <form action="https://formspree.io/f/xrgrnnyv" method="POST">
+                <fieldset>
+                
+                    <label for="first_name">First Name</label>
+                    <input type="text" placeholder="Enter Your First Name" id = "first_name" name="first_name" required>
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" placeholder="Enter Your Last Name" id = "last_name" name="last_name" required>
+                    <br>
+                    <label for="email_id">Email</label>
+                    <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+                    <br>
+                    <label for="phone_id">Phone Number</label>
+                    <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>                
+                    <br>
+                    <label for="msg">Message</label>
+                    <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea>
+                    <br>
+                    <input type="submit" value = "Submit">
+                  </fieldset>
+
+            </form>
+
+        </div>
+
+
+
+
+
+    </main>
+<footer>
+    <p>&copy; Nadav Aaronson, SI 339 Final Project</p>
+
+</footer>
+    
+</body>
+</html>
