@@ -315,8 +315,8 @@ input[type=submit]:hover {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 45%;
-    height: 250px;
+    width: 90%;
+    height: 200px;
     border: 2px solid white;
     border-radius: 15px;
     overflow: hidden;
@@ -498,6 +498,12 @@ input[type=submit]:hover {
 
     #arm {
         grid-column: 3/ span 1;
+    }
+
+    .flip-card {
+        width: 60%;
+        height: 250px;
+
     }
 }
 
