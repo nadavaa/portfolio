@@ -572,7 +572,8 @@ input[type=submit]:hover {
     }
 
     .about1::before{
-        position: relative;
+        /* position: relative; */
+        background-attachment: inherit;
     }
 
     .flip-card-inner {
